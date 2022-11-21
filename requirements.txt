@@ -1,0 +1,9 @@
+cloudpickle==2.2.0
+flappy-bird-gym==0.3.0
+gym==0.26.2
+gym-notices==0.0.8
+numpy==1.23.5
+Pillow==9.3.0
+pygame==2.0.3
+pyglet==1.5.15
+scipy==1.9.3
