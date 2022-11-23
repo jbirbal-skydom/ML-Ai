@@ -1,6 +1,6 @@
-from ale_py import ALEInterface
+# from ale_py import ALEInterface
 
-ale = ALEInterface()
+# ale = ALEInterface()
 
 # from ale_py.roms import Breakout
 
@@ -8,7 +8,10 @@ ale = ALEInterface()
 
 import gym
 
-env = gym.make('Breakout-v4') 
+env = gym.make('CartPole-v1', render_mode="human") 
+obs = env.reset()
+print (env.observation_space)
+env.render()
 ############ Install virtual environment
 # pip install virtualenv
 

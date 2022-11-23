@@ -1,4 +1,4 @@
-/.venv
+.venv
 /.venvBO
 atari-py/*
 ROMS/*
@@ -7,3 +7,13 @@ Roms.rar
 HCROMS/*
 atari_py-0.2.9-cp39-cp39-win_amd64.whl
 atari-py-0.3.0.tar.gz
+.venv/
+help/
+logs/
+snake/
+**/.ipynb_checkpoints/
+**/__pycache__/
+**/tensorboard_logs/sml/
+02_mountain_car/saved_agents
+03_cart_pole/saved_agents
+04_cart_pole_tune_hparams_like_a_pro/
