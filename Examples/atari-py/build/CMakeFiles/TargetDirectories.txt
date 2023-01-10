@@ -1,0 +1,3 @@
+C:/Users/wwwno/OneDrive/Documents/Git/ML-Ai/atari-py/build/CMakeFiles/uninstall.dir
+C:/Users/wwwno/OneDrive/Documents/Git/ML-Ai/atari-py/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/wwwno/OneDrive/Documents/Git/ML-Ai/atari-py/build/CMakeFiles/ZERO_CHECK.dir

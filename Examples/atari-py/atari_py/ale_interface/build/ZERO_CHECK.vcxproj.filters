@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\build\CMakeFiles\5516aa5d2f6ec093423b4ac4441ecb2f\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{A456873E-A398-3B4B-B397-C1DC5D22E40F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

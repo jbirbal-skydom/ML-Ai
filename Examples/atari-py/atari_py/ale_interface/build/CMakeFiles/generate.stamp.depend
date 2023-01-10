@@ -1,0 +1,24 @@
+# CMake generation dependency list for this directory.
+C:/Users/wwwno/OneDrive/Documents/Git/ML-Ai/.venvBO/Lib/site-packages/cmake/data/share/cmake-3.25/Modules/CMakeCInformation.cmake
+C:/Users/wwwno/OneDrive/Documents/Git/ML-Ai/.venvBO/Lib/site-packages/cmake/data/share/cmake-3.25/Modules/CMakeCXXInformation.cmake
+C:/Users/wwwno/OneDrive/Documents/Git/ML-Ai/.venvBO/Lib/site-packages/cmake/data/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake
+C:/Users/wwwno/OneDrive/Documents/Git/ML-Ai/.venvBO/Lib/site-packages/cmake/data/share/cmake-3.25/Modules/CMakeGenericSystem.cmake
+C:/Users/wwwno/OneDrive/Documents/Git/ML-Ai/.venvBO/Lib/site-packages/cmake/data/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake
+C:/Users/wwwno/OneDrive/Documents/Git/ML-Ai/.venvBO/Lib/site-packages/cmake/data/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake
+C:/Users/wwwno/OneDrive/Documents/Git/ML-Ai/.venvBO/Lib/site-packages/cmake/data/share/cmake-3.25/Modules/CMakeRCInformation.cmake
+C:/Users/wwwno/OneDrive/Documents/Git/ML-Ai/.venvBO/Lib/site-packages/cmake/data/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake
+C:/Users/wwwno/OneDrive/Documents/Git/ML-Ai/.venvBO/Lib/site-packages/cmake/data/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Users/wwwno/OneDrive/Documents/Git/ML-Ai/.venvBO/Lib/site-packages/cmake/data/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Users/wwwno/OneDrive/Documents/Git/ML-Ai/.venvBO/Lib/site-packages/cmake/data/share/cmake-3.25/Modules/Compiler/MSVC-C.cmake
+C:/Users/wwwno/OneDrive/Documents/Git/ML-Ai/.venvBO/Lib/site-packages/cmake/data/share/cmake-3.25/Modules/Compiler/MSVC-CXX.cmake
+C:/Users/wwwno/OneDrive/Documents/Git/ML-Ai/.venvBO/Lib/site-packages/cmake/data/share/cmake-3.25/Modules/Compiler/MSVC.cmake
+C:/Users/wwwno/OneDrive/Documents/Git/ML-Ai/.venvBO/Lib/site-packages/cmake/data/share/cmake-3.25/Modules/Platform/Windows-MSVC-C.cmake
+C:/Users/wwwno/OneDrive/Documents/Git/ML-Ai/.venvBO/Lib/site-packages/cmake/data/share/cmake-3.25/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Users/wwwno/OneDrive/Documents/Git/ML-Ai/.venvBO/Lib/site-packages/cmake/data/share/cmake-3.25/Modules/Platform/Windows-MSVC.cmake
+C:/Users/wwwno/OneDrive/Documents/Git/ML-Ai/.venvBO/Lib/site-packages/cmake/data/share/cmake-3.25/Modules/Platform/Windows.cmake
+C:/Users/wwwno/OneDrive/Documents/Git/ML-Ai/.venvBO/Lib/site-packages/cmake/data/share/cmake-3.25/Modules/Platform/WindowsPaths.cmake
+C:/Users/wwwno/OneDrive/Documents/Git/ML-Ai/atari-py/atari_py/ale_interface/CMakeLists.txt
+C:/Users/wwwno/OneDrive/Documents/Git/ML-Ai/atari-py/atari_py/ale_interface/build/CMakeFiles/3.25.0/CMakeCCompiler.cmake
+C:/Users/wwwno/OneDrive/Documents/Git/ML-Ai/atari-py/atari_py/ale_interface/build/CMakeFiles/3.25.0/CMakeCXXCompiler.cmake
+C:/Users/wwwno/OneDrive/Documents/Git/ML-Ai/atari-py/atari_py/ale_interface/build/CMakeFiles/3.25.0/CMakeRCCompiler.cmake
+C:/Users/wwwno/OneDrive/Documents/Git/ML-Ai/atari-py/atari_py/ale_interface/build/CMakeFiles/3.25.0/CMakeSystem.cmake

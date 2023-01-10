@@ -1,0 +1,557 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{36B625D9-F6BF-38DB-B80D-0E1E2A51A50F}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ale-c-lib</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ale-c-lib.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ale_c</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ale-c-lib.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ale_c</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">ale-c-lib.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">ale_c</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">ale-c-lib.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">ale_c</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\zlib;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\common;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\controllers;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\m6502\src;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\m6502\src\bspf\src;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\environment;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\os_dependent;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\external;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\external\TinyMT;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -std=c++11 -fPIC -O3 -fomit-frame-pointer</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;__STDC_CONSTANT_MACROS;HAVE_INTTYPES;CMAKE_INTDIR="Debug";ale_c_lib_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;__STDC_CONSTANT_MACROS;HAVE_INTTYPES;CMAKE_INTDIR=\"Debug\";ale_c_lib_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\zlib;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\common;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\controllers;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\m6502\src;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\m6502\src\bspf\src;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\environment;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\os_dependent;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\external;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\external\TinyMT;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\zlib;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\common;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\controllers;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\m6502\src;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\m6502\src\bspf\src;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\environment;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\os_dependent;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\external;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\external\TinyMT;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreLinkEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Auto build dll exports</Message>
+      <Command>setlocal
+cd C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\.venvBO\Lib\site-packages\cmake\data\bin\cmake.exe -E __create_def C:/Users/wwwno/OneDrive/Documents/Git/ML-Ai/atari-py/atari_py/ale_interface/build/ale-c-lib.dir/Debug/exports.def C:/Users/wwwno/OneDrive/Documents/Git/ML-Ai/atari-py/atari_py/ale_interface/build/ale-c-lib.dir/Debug//objects.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreLinkEvent>
+    <Link>
+      <AdditionalDependencies>z.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/wwwno/OneDrive/Documents/Git/ML-Ai/atari-py/atari_py/ale_interface/build/Debug/ale_c.lib</ImportLibrary>
+      <ModuleDefinitionFile>C:/Users/wwwno/OneDrive/Documents/Git/ML-Ai/atari-py/atari_py/ale_interface/build/ale-c-lib.dir/Debug/exports.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>C:/Users/wwwno/OneDrive/Documents/Git/ML-Ai/atari-py/atari_py/ale_interface/build/Debug/ale_c.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\zlib;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\common;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\controllers;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\m6502\src;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\m6502\src\bspf\src;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\environment;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\os_dependent;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\external;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\external\TinyMT;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -std=c++11 -fPIC -O3 -fomit-frame-pointer</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;__STDC_CONSTANT_MACROS;NDEBUG;HAVE_INTTYPES;CMAKE_INTDIR="Release";ale_c_lib_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;__STDC_CONSTANT_MACROS;NDEBUG;HAVE_INTTYPES;CMAKE_INTDIR=\"Release\";ale_c_lib_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\zlib;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\common;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\controllers;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\m6502\src;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\m6502\src\bspf\src;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\environment;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\os_dependent;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\external;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\external\TinyMT;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\zlib;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\common;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\controllers;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\m6502\src;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\m6502\src\bspf\src;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\environment;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\os_dependent;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\external;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\external\TinyMT;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreLinkEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Auto build dll exports</Message>
+      <Command>setlocal
+cd C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\.venvBO\Lib\site-packages\cmake\data\bin\cmake.exe -E __create_def C:/Users/wwwno/OneDrive/Documents/Git/ML-Ai/atari-py/atari_py/ale_interface/build/ale-c-lib.dir/Release/exports.def C:/Users/wwwno/OneDrive/Documents/Git/ML-Ai/atari-py/atari_py/ale_interface/build/ale-c-lib.dir/Release//objects.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreLinkEvent>
+    <Link>
+      <AdditionalDependencies>z.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/wwwno/OneDrive/Documents/Git/ML-Ai/atari-py/atari_py/ale_interface/build/Release/ale_c.lib</ImportLibrary>
+      <ModuleDefinitionFile>C:/Users/wwwno/OneDrive/Documents/Git/ML-Ai/atari-py/atari_py/ale_interface/build/ale-c-lib.dir/Release/exports.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>C:/Users/wwwno/OneDrive/Documents/Git/ML-Ai/atari-py/atari_py/ale_interface/build/Release/ale_c.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\zlib;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\common;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\controllers;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\m6502\src;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\m6502\src\bspf\src;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\environment;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\os_dependent;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\external;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\external\TinyMT;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -std=c++11 -fPIC -O3 -fomit-frame-pointer</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;__STDC_CONSTANT_MACROS;NDEBUG;HAVE_INTTYPES;CMAKE_INTDIR="MinSizeRel";ale_c_lib_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;__STDC_CONSTANT_MACROS;NDEBUG;HAVE_INTTYPES;CMAKE_INTDIR=\"MinSizeRel\";ale_c_lib_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\zlib;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\common;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\controllers;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\m6502\src;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\m6502\src\bspf\src;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\environment;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\os_dependent;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\external;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\external\TinyMT;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\zlib;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\common;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\controllers;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\m6502\src;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\m6502\src\bspf\src;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\environment;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\os_dependent;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\external;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\external\TinyMT;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreLinkEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Auto build dll exports</Message>
+      <Command>setlocal
+cd C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\.venvBO\Lib\site-packages\cmake\data\bin\cmake.exe -E __create_def C:/Users/wwwno/OneDrive/Documents/Git/ML-Ai/atari-py/atari_py/ale_interface/build/ale-c-lib.dir/MinSizeRel/exports.def C:/Users/wwwno/OneDrive/Documents/Git/ML-Ai/atari-py/atari_py/ale_interface/build/ale-c-lib.dir/MinSizeRel//objects.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreLinkEvent>
+    <Link>
+      <AdditionalDependencies>z.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/wwwno/OneDrive/Documents/Git/ML-Ai/atari-py/atari_py/ale_interface/build/MinSizeRel/ale_c.lib</ImportLibrary>
+      <ModuleDefinitionFile>C:/Users/wwwno/OneDrive/Documents/Git/ML-Ai/atari-py/atari_py/ale_interface/build/ale-c-lib.dir/MinSizeRel/exports.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>C:/Users/wwwno/OneDrive/Documents/Git/ML-Ai/atari-py/atari_py/ale_interface/build/MinSizeRel/ale_c.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\zlib;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\common;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\controllers;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\m6502\src;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\m6502\src\bspf\src;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\environment;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\os_dependent;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\external;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\external\TinyMT;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -std=c++11 -fPIC -O3 -fomit-frame-pointer</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;__STDC_CONSTANT_MACROS;NDEBUG;HAVE_INTTYPES;CMAKE_INTDIR="RelWithDebInfo";ale_c_lib_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;__STDC_CONSTANT_MACROS;NDEBUG;HAVE_INTTYPES;CMAKE_INTDIR=\"RelWithDebInfo\";ale_c_lib_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\zlib;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\common;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\controllers;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\m6502\src;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\m6502\src\bspf\src;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\environment;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\os_dependent;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\external;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\external\TinyMT;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\zlib;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\common;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\controllers;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\m6502\src;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\m6502\src\bspf\src;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\environment;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\os_dependent;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\external;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\external\TinyMT;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreLinkEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Auto build dll exports</Message>
+      <Command>setlocal
+cd C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\.venvBO\Lib\site-packages\cmake\data\bin\cmake.exe -E __create_def C:/Users/wwwno/OneDrive/Documents/Git/ML-Ai/atari-py/atari_py/ale_interface/build/ale-c-lib.dir/RelWithDebInfo/exports.def C:/Users/wwwno/OneDrive/Documents/Git/ML-Ai/atari-py/atari_py/ale_interface/build/ale-c-lib.dir/RelWithDebInfo//objects.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreLinkEvent>
+    <Link>
+      <AdditionalDependencies>z.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/wwwno/OneDrive/Documents/Git/ML-Ai/atari-py/atari_py/ale_interface/build/RelWithDebInfo/ale_c.lib</ImportLibrary>
+      <ModuleDefinitionFile>C:/Users/wwwno/OneDrive/Documents/Git/ML-Ai/atari-py/atari_py/ale_interface/build/ale-c-lib.dir/RelWithDebInfo/exports.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>C:/Users/wwwno/OneDrive/Documents/Git/ML-Ai/atari-py/atari_py/ale_interface/build/RelWithDebInfo/ale_c.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/wwwno/OneDrive/Documents/Git/ML-Ai/atari-py/atari_py/ale_interface/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\.venvBO\Lib\site-packages\cmake\data\bin\cmake.exe -SC:/Users/wwwno/OneDrive/Documents/Git/ML-Ai/atari-py/atari_py/ale_interface -BC:/Users/wwwno/OneDrive/Documents/Git/ML-Ai/atari-py/atari_py/ale_interface/build --check-stamp-file C:/Users/wwwno/OneDrive/Documents/Git/ML-Ai/atari-py/atari_py/ale_interface/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\.venvBO\Lib\site-packages\cmake\data\share\cmake-3.25\Modules\CMakeCInformation.cmake;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\.venvBO\Lib\site-packages\cmake\data\share\cmake-3.25\Modules\CMakeCXXInformation.cmake;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\.venvBO\Lib\site-packages\cmake\data\share\cmake-3.25\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\.venvBO\Lib\site-packages\cmake\data\share\cmake-3.25\Modules\CMakeGenericSystem.cmake;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\.venvBO\Lib\site-packages\cmake\data\share\cmake-3.25\Modules\CMakeInitializeConfigs.cmake;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\.venvBO\Lib\site-packages\cmake\data\share\cmake-3.25\Modules\CMakeLanguageInformation.cmake;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\.venvBO\Lib\site-packages\cmake\data\share\cmake-3.25\Modules\CMakeRCInformation.cmake;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\.venvBO\Lib\site-packages\cmake\data\share\cmake-3.25\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\.venvBO\Lib\site-packages\cmake\data\share\cmake-3.25\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\.venvBO\Lib\site-packages\cmake\data\share\cmake-3.25\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\.venvBO\Lib\site-packages\cmake\data\share\cmake-3.25\Modules\Compiler\MSVC-C.cmake;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\.venvBO\Lib\site-packages\cmake\data\share\cmake-3.25\Modules\Compiler\MSVC-CXX.cmake;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\.venvBO\Lib\site-packages\cmake\data\share\cmake-3.25\Modules\Compiler\MSVC.cmake;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\.venvBO\Lib\site-packages\cmake\data\share\cmake-3.25\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\.venvBO\Lib\site-packages\cmake\data\share\cmake-3.25\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\.venvBO\Lib\site-packages\cmake\data\share\cmake-3.25\Modules\Platform\Windows-MSVC.cmake;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\.venvBO\Lib\site-packages\cmake\data\share\cmake-3.25\Modules\Platform\Windows.cmake;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\.venvBO\Lib\site-packages\cmake\data\share\cmake-3.25\Modules\Platform\WindowsPaths.cmake;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\build\CMakeFiles\3.25.0\CMakeCCompiler.cmake;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\build\CMakeFiles\3.25.0\CMakeCXXCompiler.cmake;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\build\CMakeFiles\3.25.0\CMakeRCCompiler.cmake;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\build\CMakeFiles\3.25.0\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/wwwno/OneDrive/Documents/Git/ML-Ai/atari-py/atari_py/ale_interface/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\.venvBO\Lib\site-packages\cmake\data\bin\cmake.exe -SC:/Users/wwwno/OneDrive/Documents/Git/ML-Ai/atari-py/atari_py/ale_interface -BC:/Users/wwwno/OneDrive/Documents/Git/ML-Ai/atari-py/atari_py/ale_interface/build --check-stamp-file C:/Users/wwwno/OneDrive/Documents/Git/ML-Ai/atari-py/atari_py/ale_interface/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\.venvBO\Lib\site-packages\cmake\data\share\cmake-3.25\Modules\CMakeCInformation.cmake;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\.venvBO\Lib\site-packages\cmake\data\share\cmake-3.25\Modules\CMakeCXXInformation.cmake;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\.venvBO\Lib\site-packages\cmake\data\share\cmake-3.25\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\.venvBO\Lib\site-packages\cmake\data\share\cmake-3.25\Modules\CMakeGenericSystem.cmake;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\.venvBO\Lib\site-packages\cmake\data\share\cmake-3.25\Modules\CMakeInitializeConfigs.cmake;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\.venvBO\Lib\site-packages\cmake\data\share\cmake-3.25\Modules\CMakeLanguageInformation.cmake;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\.venvBO\Lib\site-packages\cmake\data\share\cmake-3.25\Modules\CMakeRCInformation.cmake;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\.venvBO\Lib\site-packages\cmake\data\share\cmake-3.25\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\.venvBO\Lib\site-packages\cmake\data\share\cmake-3.25\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\.venvBO\Lib\site-packages\cmake\data\share\cmake-3.25\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\.venvBO\Lib\site-packages\cmake\data\share\cmake-3.25\Modules\Compiler\MSVC-C.cmake;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\.venvBO\Lib\site-packages\cmake\data\share\cmake-3.25\Modules\Compiler\MSVC-CXX.cmake;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\.venvBO\Lib\site-packages\cmake\data\share\cmake-3.25\Modules\Compiler\MSVC.cmake;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\.venvBO\Lib\site-packages\cmake\data\share\cmake-3.25\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\.venvBO\Lib\site-packages\cmake\data\share\cmake-3.25\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\.venvBO\Lib\site-packages\cmake\data\share\cmake-3.25\Modules\Platform\Windows-MSVC.cmake;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\.venvBO\Lib\site-packages\cmake\data\share\cmake-3.25\Modules\Platform\Windows.cmake;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\.venvBO\Lib\site-packages\cmake\data\share\cmake-3.25\Modules\Platform\WindowsPaths.cmake;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\build\CMakeFiles\3.25.0\CMakeCCompiler.cmake;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\build\CMakeFiles\3.25.0\CMakeCXXCompiler.cmake;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\build\CMakeFiles\3.25.0\CMakeRCCompiler.cmake;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\build\CMakeFiles\3.25.0\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/wwwno/OneDrive/Documents/Git/ML-Ai/atari-py/atari_py/ale_interface/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\.venvBO\Lib\site-packages\cmake\data\bin\cmake.exe -SC:/Users/wwwno/OneDrive/Documents/Git/ML-Ai/atari-py/atari_py/ale_interface -BC:/Users/wwwno/OneDrive/Documents/Git/ML-Ai/atari-py/atari_py/ale_interface/build --check-stamp-file C:/Users/wwwno/OneDrive/Documents/Git/ML-Ai/atari-py/atari_py/ale_interface/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\.venvBO\Lib\site-packages\cmake\data\share\cmake-3.25\Modules\CMakeCInformation.cmake;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\.venvBO\Lib\site-packages\cmake\data\share\cmake-3.25\Modules\CMakeCXXInformation.cmake;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\.venvBO\Lib\site-packages\cmake\data\share\cmake-3.25\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\.venvBO\Lib\site-packages\cmake\data\share\cmake-3.25\Modules\CMakeGenericSystem.cmake;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\.venvBO\Lib\site-packages\cmake\data\share\cmake-3.25\Modules\CMakeInitializeConfigs.cmake;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\.venvBO\Lib\site-packages\cmake\data\share\cmake-3.25\Modules\CMakeLanguageInformation.cmake;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\.venvBO\Lib\site-packages\cmake\data\share\cmake-3.25\Modules\CMakeRCInformation.cmake;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\.venvBO\Lib\site-packages\cmake\data\share\cmake-3.25\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\.venvBO\Lib\site-packages\cmake\data\share\cmake-3.25\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\.venvBO\Lib\site-packages\cmake\data\share\cmake-3.25\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\.venvBO\Lib\site-packages\cmake\data\share\cmake-3.25\Modules\Compiler\MSVC-C.cmake;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\.venvBO\Lib\site-packages\cmake\data\share\cmake-3.25\Modules\Compiler\MSVC-CXX.cmake;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\.venvBO\Lib\site-packages\cmake\data\share\cmake-3.25\Modules\Compiler\MSVC.cmake;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\.venvBO\Lib\site-packages\cmake\data\share\cmake-3.25\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\.venvBO\Lib\site-packages\cmake\data\share\cmake-3.25\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\.venvBO\Lib\site-packages\cmake\data\share\cmake-3.25\Modules\Platform\Windows-MSVC.cmake;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\.venvBO\Lib\site-packages\cmake\data\share\cmake-3.25\Modules\Platform\Windows.cmake;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\.venvBO\Lib\site-packages\cmake\data\share\cmake-3.25\Modules\Platform\WindowsPaths.cmake;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\build\CMakeFiles\3.25.0\CMakeCCompiler.cmake;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\build\CMakeFiles\3.25.0\CMakeCXXCompiler.cmake;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\build\CMakeFiles\3.25.0\CMakeRCCompiler.cmake;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\build\CMakeFiles\3.25.0\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/wwwno/OneDrive/Documents/Git/ML-Ai/atari-py/atari_py/ale_interface/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\.venvBO\Lib\site-packages\cmake\data\bin\cmake.exe -SC:/Users/wwwno/OneDrive/Documents/Git/ML-Ai/atari-py/atari_py/ale_interface -BC:/Users/wwwno/OneDrive/Documents/Git/ML-Ai/atari-py/atari_py/ale_interface/build --check-stamp-file C:/Users/wwwno/OneDrive/Documents/Git/ML-Ai/atari-py/atari_py/ale_interface/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\.venvBO\Lib\site-packages\cmake\data\share\cmake-3.25\Modules\CMakeCInformation.cmake;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\.venvBO\Lib\site-packages\cmake\data\share\cmake-3.25\Modules\CMakeCXXInformation.cmake;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\.venvBO\Lib\site-packages\cmake\data\share\cmake-3.25\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\.venvBO\Lib\site-packages\cmake\data\share\cmake-3.25\Modules\CMakeGenericSystem.cmake;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\.venvBO\Lib\site-packages\cmake\data\share\cmake-3.25\Modules\CMakeInitializeConfigs.cmake;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\.venvBO\Lib\site-packages\cmake\data\share\cmake-3.25\Modules\CMakeLanguageInformation.cmake;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\.venvBO\Lib\site-packages\cmake\data\share\cmake-3.25\Modules\CMakeRCInformation.cmake;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\.venvBO\Lib\site-packages\cmake\data\share\cmake-3.25\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\.venvBO\Lib\site-packages\cmake\data\share\cmake-3.25\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\.venvBO\Lib\site-packages\cmake\data\share\cmake-3.25\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\.venvBO\Lib\site-packages\cmake\data\share\cmake-3.25\Modules\Compiler\MSVC-C.cmake;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\.venvBO\Lib\site-packages\cmake\data\share\cmake-3.25\Modules\Compiler\MSVC-CXX.cmake;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\.venvBO\Lib\site-packages\cmake\data\share\cmake-3.25\Modules\Compiler\MSVC.cmake;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\.venvBO\Lib\site-packages\cmake\data\share\cmake-3.25\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\.venvBO\Lib\site-packages\cmake\data\share\cmake-3.25\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\.venvBO\Lib\site-packages\cmake\data\share\cmake-3.25\Modules\Platform\Windows-MSVC.cmake;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\.venvBO\Lib\site-packages\cmake\data\share\cmake-3.25\Modules\Platform\Windows.cmake;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\.venvBO\Lib\site-packages\cmake\data\share\cmake-3.25\Modules\Platform\WindowsPaths.cmake;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\build\CMakeFiles\3.25.0\CMakeCCompiler.cmake;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\build\CMakeFiles\3.25.0\CMakeCXXCompiler.cmake;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\build\CMakeFiles\3.25.0\CMakeRCCompiler.cmake;C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\build\CMakeFiles\3.25.0\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_c_wrapper.cpp" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\ale_interface.cpp" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\common\ColourPalette.cpp" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\common\Constants.cpp" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\common\Log.cpp" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\common\ScreenExporter.cpp" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\common\SoundExporter.cpp" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\common\SoundNull.cxx" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\common\SoundSDL.cxx" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\common\display_screen.cpp" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\controllers\ale_controller.cpp" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\controllers\fifo_controller.cpp" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\controllers\rlglue_controller.cpp" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\AtariVox.cxx" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\Booster.cxx" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\Cart.cxx" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\Cart0840.cxx" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\Cart2K.cxx" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\Cart3E.cxx" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\Cart3F.cxx" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\Cart4A50.cxx" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\Cart4K.cxx" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\CartAR.cxx" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\CartCV.cxx" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\CartDPC.cxx" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\CartE0.cxx" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\CartE7.cxx" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\CartF4.cxx" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\CartF4SC.cxx" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\CartF6.cxx" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\CartF6SC.cxx" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\CartF8.cxx" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\CartF8SC.cxx" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\CartFASC.cxx" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\CartFE.cxx" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\CartMB.cxx" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\CartMC.cxx" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\CartUA.cxx" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\Console.cxx" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\Control.cxx" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\Deserializer.cxx" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\Driving.cxx" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\Event.cxx" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\FSNode.cxx" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\Joystick.cxx" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\Keyboard.cxx" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\M6532.cxx" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\MD5.cxx" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\MediaSrc.cxx" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\OSystem.cxx" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\Paddles.cxx" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\Props.cxx" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\PropsSet.cxx" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\Random.cxx" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\Serializer.cxx" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\Settings.cxx" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\SpeakJet.cxx" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\Switches.cxx" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\TIA.cxx" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\TIASnd.cxx" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\m6502\src\Device.cxx" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\m6502\src\M6502.cxx" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\m6502\src\M6502Hi.cxx" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\m6502\src\M6502Low.cxx" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\m6502\src\NullDev.cxx" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\m6502\src\System.cxx" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\environment\ale_state.cpp" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\environment\phosphor_blend.cpp" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\environment\stella_environment.cpp" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\environment\stella_environment_wrapper.cpp" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\RomSettings.cpp" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\RomUtils.cpp" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\Roms.cpp" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\Adventure.cpp" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\AirRaid.cpp" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\Alien.cpp" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\Amidar.cpp" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\Assault.cpp" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\Asterix.cpp" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\Asteroids.cpp" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\Atlantis.cpp" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\BankHeist.cpp" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\BattleZone.cpp" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\BeamRider.cpp" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\Berzerk.cpp" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\Bowling.cpp" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\Boxing.cpp" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\Breakout.cpp" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\Carnival.cpp" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\Centipede.cpp" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\ChopperCommand.cpp" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\CrazyClimber.cpp" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\Defender.cpp" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\DemonAttack.cpp" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\DonkeyKong.cpp" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\DoubleDunk.cpp" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\ElevatorAction.cpp" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\Enduro.cpp" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\FishingDerby.cpp" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\Freeway.cpp" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\Frogger.cpp" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\Frostbite.cpp" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\Galaxian.cpp" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\Gopher.cpp" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\Gravitar.cpp" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\Hero.cpp" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\IceHockey.cpp" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\JamesBond.cpp" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\JourneyEscape.cpp" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\Kaboom.cpp" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\Kangaroo.cpp" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\KeystoneKapers.cpp" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\Kingkong.cpp" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\Koolaid.cpp" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\Krull.cpp" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\KungFuMaster.cpp" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\LaserGates.cpp" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\LostLuggage.cpp" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\MontezumaRevenge.cpp" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\MrDo.cpp" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\MsPacman.cpp" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\NameThisGame.cpp" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\Phoenix.cpp" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\Pitfall.cpp" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\Pong.cpp" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\Pooyan.cpp" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\PrivateEye.cpp" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\QBert.cpp" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\RiverRaid.cpp" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\RoadRunner.cpp" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\RoboTank.cpp" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\Seaquest.cpp" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\SirLancelot.cpp" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\Skiing.cpp" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\Solaris.cpp" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\SpaceInvaders.cpp" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\StarGunner.cpp" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\Tennis.cpp" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\Tetris.cpp" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\TimePilot.cpp" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\Trondead.cpp" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\Turmoil.cpp" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\Tutankham.cpp" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\UpNDown.cpp" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\Venture.cpp" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\VideoPinball.cpp" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\WizardOfWor.cpp" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\YarsRevenge.cpp" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\Zaxxon.cpp" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\external\TinyMT\tinymt32.c" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\os_dependent\SettingsWin32.cxx" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\os_dependent\OSystemWin32.cxx" />
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\os_dependent\FSNodeWin32.cxx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\build\ZERO_CHECK.vcxproj">
+      <Project>{195373D3-9780-34A1-852A-686E998BFE65}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,472 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_c_wrapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\ale_interface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\common\ColourPalette.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\common\Constants.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\common\Log.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\common\ScreenExporter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\common\SoundExporter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\common\SoundNull.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\common\SoundSDL.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\common\display_screen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\controllers\ale_controller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\controllers\fifo_controller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\controllers\rlglue_controller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\AtariVox.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\Booster.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\Cart.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\Cart0840.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\Cart2K.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\Cart3E.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\Cart3F.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\Cart4A50.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\Cart4K.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\CartAR.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\CartCV.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\CartDPC.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\CartE0.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\CartE7.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\CartF4.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\CartF4SC.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\CartF6.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\CartF6SC.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\CartF8.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\CartF8SC.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\CartFASC.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\CartFE.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\CartMB.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\CartMC.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\CartUA.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\Console.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\Control.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\Deserializer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\Driving.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\Event.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\FSNode.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\Joystick.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\Keyboard.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\M6532.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\MD5.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\MediaSrc.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\OSystem.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\Paddles.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\Props.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\PropsSet.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\Random.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\Serializer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\Settings.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\SpeakJet.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\Switches.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\TIA.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\TIASnd.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\m6502\src\Device.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\m6502\src\M6502.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\m6502\src\M6502Hi.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\m6502\src\M6502Low.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\m6502\src\NullDev.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\emucore\m6502\src\System.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\environment\ale_state.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\environment\phosphor_blend.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\environment\stella_environment.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\environment\stella_environment_wrapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\RomSettings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\RomUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\Roms.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\Adventure.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\AirRaid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\Alien.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\Amidar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\Assault.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\Asterix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\Asteroids.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\Atlantis.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\BankHeist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\BattleZone.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\BeamRider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\Berzerk.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\Bowling.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\Boxing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\Breakout.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\Carnival.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\Centipede.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\ChopperCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\CrazyClimber.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\Defender.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\DemonAttack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\DonkeyKong.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\DoubleDunk.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\ElevatorAction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\Enduro.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\FishingDerby.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\Freeway.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\Frogger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\Frostbite.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\Galaxian.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\Gopher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\Gravitar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\Hero.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\IceHockey.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\JamesBond.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\JourneyEscape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\Kaboom.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\Kangaroo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\KeystoneKapers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\Kingkong.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\Koolaid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\Krull.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\KungFuMaster.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\LaserGates.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\LostLuggage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\MontezumaRevenge.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\MrDo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\MsPacman.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\NameThisGame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\Phoenix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\Pitfall.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\Pong.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\Pooyan.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\PrivateEye.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\QBert.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\RiverRaid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\RoadRunner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\RoboTank.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\Seaquest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\SirLancelot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\Skiing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\Solaris.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\SpaceInvaders.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\StarGunner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\Tennis.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\Tetris.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\TimePilot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\Trondead.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\Turmoil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\Tutankham.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\UpNDown.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\Venture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\VideoPinball.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\WizardOfWor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\YarsRevenge.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\games\supported\Zaxxon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\external\TinyMT\tinymt32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\os_dependent\SettingsWin32.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\os_dependent\OSystemWin32.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\src\os_dependent\FSNodeWin32.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\atari-py\atari_py\ale_interface\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{FE2D769C-4E7B-30A2-9992-DBCA130569BE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

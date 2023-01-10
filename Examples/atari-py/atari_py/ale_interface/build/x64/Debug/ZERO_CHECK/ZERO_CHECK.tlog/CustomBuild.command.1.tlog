@@ -1,0 +1,10 @@
+^C:\USERS\WWWNO\ONEDRIVE\DOCUMENTS\GIT\ML-AI\ATARI-PY\ATARI_PY\ALE_INTERFACE\BUILD\CMAKEFILES\5516AA5D2F6EC093423B4AC4441ECB2F\GENERATE.STAMP.RULE
+setlocal
+C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\.venvBO\Lib\site-packages\cmake\data\bin\cmake.exe -SC:/Users/wwwno/OneDrive/Documents/Git/ML-Ai/atari-py/atari_py/ale_interface -BC:/Users/wwwno/OneDrive/Documents/Git/ML-Ai/atari-py/atari_py/ale_interface/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/wwwno/OneDrive/Documents/Git/ML-Ai/atari-py/atari_py/ale_interface/build/ale.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
