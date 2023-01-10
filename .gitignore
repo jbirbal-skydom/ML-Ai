@@ -1,12 +1,12 @@
 .venv
 /.venvBO
 atari-py/*
-ROMS/*
-Roms.rar
+Assets/ROMS/*
+Assets/Roms.rar
 /baselines
-HCROMS/*
-atari_py-0.2.9-cp39-cp39-win_amd64.whl
-atari-py-0.3.0.tar.gz
+Assets/HCROMS/*
+Assets/atari_py-0.2.9-cp39-cp39-win_amd64.whl
+Assets/atari-py-0.3.0.tar.gz
 .venv/
 help/
 logs/
