@@ -4,7 +4,7 @@
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/Course/.venv_course" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.10 (dataspell)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Courses_ 3.10 (ML-Ai)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>

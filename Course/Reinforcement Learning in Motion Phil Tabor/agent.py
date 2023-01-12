@@ -5,7 +5,7 @@ class Agent(object):
     def __int__(self):
         self.stateHistory = None
 
-    def choose_action(self):
+    def choose_action(self, state):
         pass
 
     def update_state_history(self):
