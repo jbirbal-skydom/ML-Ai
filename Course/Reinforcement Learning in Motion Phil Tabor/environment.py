@@ -43,27 +43,32 @@ class Maze(object):
         self.maze[3, 2] = 1
 
     def state(self, action=None):  # update maze
+        move = None
         x, y = np.transpose(np.nonzero(self.maze == 2))[0]
         self.robot = (x, y)
         if action:
             try:
                 move = self.is_move_allowed(action)
-                self.update_maze(move)
             except NoMove as e:
-                print(e)
-                self.update_maze()
-        return self.robot
+                # print(e)
+                pass
+
+        reward = self.update_maze(move)
+        return self.robot, reward
 
     def is_move_allowed(self, action, state=None):
         if state is None:
             state = self.robot
-        x, y = state
-        x += self.direction[action][0]
-        y += self.direction[action][1]
+        x, y = tuple([sum(x) for x in zip(state, self.direction[action])])
+        # x, y = state
+        # x += self.direction[action][0]
+        # y += self.direction[action][1]
         if x > 5 or y > 5 or x < 0 or y < 0:
-            raise NoMove("Boundary")
+            return False
+            # raise NoMove("Boundary")
         elif self.maze[x, y] == 1:
-            raise NoMove("Wall")
+            return False
+            # raise NoMove("Wall")
         else:
             return x, y
 
@@ -86,15 +91,17 @@ class Maze(object):
             self.robot = move
             self.maze[self.robot] = 2
         self.steps += 1
+        return self.give_reward()
 
     def give_reward(self):
-        if self.state == [5, 5]:
+        if self.robot == (5, 5):
             return 0
         else:
             return -1
 
     def game_over(self):
         if self.robot == (5, 5):
+            # print(self)
             return True
         else:
             return False
