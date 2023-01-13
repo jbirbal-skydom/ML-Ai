@@ -18,9 +18,9 @@ class Agent(object):
             nextMove = np.random.choice(allowedMoves)          
         else:            
             for action in allowedMoves:
-                newState = tuple([sum(x) for x in zip(state, actionSpace[action])])                                                          
+                newState = tuple([sum(x) for x in zip(state, actionSpace[action])])
                 if self.G[newState] >= maxG:
-                    maxG = self.G[newState]
+                    maxG = self.G[newState[0],newState[1]]
                     nextMove = action            
         return nextMove
 
