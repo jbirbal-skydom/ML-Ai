@@ -17,3 +17,4 @@ snake/
 02_mountain_car/saved_agents
 03_cart_pole/saved_agents
 04_cart_pole_tune_hparams_like_a_pro/
+**/*.log
