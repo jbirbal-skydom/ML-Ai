@@ -12,11 +12,12 @@ class Slots(object):
         return self.action_space[idx], a
 
 
-class Constant(object):
+class ConstantSlot(object):
     def __init__(self, arms):
         # np.random.seed(92)
         self.action_space = np.ones(arms)
 
     def payout(self, idx):
-        a = np.random.normal(self.action_space[idx], 0.1)
-        return self.action_space[idx], a
+        for i, v in enumerate(self.action_space):
+            self.action_space[i] += round(np.random.normal(1, 0.1), 2)
+        return self.action_space[idx]
