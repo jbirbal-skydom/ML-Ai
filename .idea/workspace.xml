@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3628affd-92b5-48b8-8e74-727911056dd7" name="Changes" comment="Unit 4 - GYM">
-      <change afterPath="$PROJECT_DIR$/Course/Math/Discount_Factor.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Course/Reinforcement Learning in Motion Phil Tabor/Unit4/agent.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Course/Reinforcement Learning in Motion Phil Tabor/Unit4/gym demo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="3628affd-92b5-48b8-8e74-727911056dd7" name="Changes" comment="Unit 4 - Discount Factor - Taylor Series">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Course/RLPacktPublishing/Running_Averages.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Course/Math/Running_Averages.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Course/Reinforcement Learning in Motion Phil Tabor/Unit4/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Course/Reinforcement Learning in Motion Phil Tabor/Unit4/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +97,7 @@
       <workItem from="1673976085649" duration="2672000" />
       <workItem from="1674018267285" duration="5463000" />
       <workItem from="1674030247339" duration="7277000" />
-      <workItem from="1674104675727" duration="11449000" />
+      <workItem from="1674104675727" duration="17250000" />
     </task>
     <task id="LOCAL-00001" summary="Working 5ArmBandit">
       <created>1673960000451</created>
@@ -126,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674020430994</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Unit 4 - Discount Factor - Taylor Series">
+      <created>1674118643047</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1674118643047</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,7 +150,8 @@
     </ignored-roots>
     <MESSAGE value="Working 5ArmBandit" />
     <MESSAGE value="Unit 4 - GYM" />
-    <option name="LAST_COMMIT_MESSAGE" value="Unit 4 - GYM" />
+    <MESSAGE value="Unit 4 - Discount Factor - Taylor Series" />
+    <option name="LAST_COMMIT_MESSAGE" value="Unit 4 - Discount Factor - Taylor Series" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -167,11 +169,6 @@
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Course/Reinforcement Learning in Motion Phil Tabor/Unit3/main.py</url>
           <option name="timeStamp" value="36" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
-          <url>notebook://C:/Users/wwwno/OneDrive/Documents/Git/ML-Ai/Course/Math/Discount_Factor.ipynb</url>
-          <line>59</line>
-          <option name="timeStamp" value="39" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
