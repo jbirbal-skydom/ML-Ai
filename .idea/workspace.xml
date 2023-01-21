@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3628affd-92b5-48b8-8e74-727911056dd7" name="Changes" comment="Unit 4 - Discount Factor - Taylor Series">
+    <list default="true" id="3628affd-92b5-48b8-8e74-727911056dd7" name="Changes" comment="Unit 4 - Discount Factor - Taylor Series (resources)">
+      <change afterPath="$PROJECT_DIR$/Course/Math/Strategy.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Course/Reinforcement Learning in Motion Phil Tabor/Unit4/agent.py" beforeDir="false" afterPath="$PROJECT_DIR$/Course/Reinforcement Learning in Motion Phil Tabor/Unit4/agent.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Course/Reinforcement Learning in Motion Phil Tabor/__init__.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Jupyter Notebook" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -30,15 +33,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "true",
-    "last_opened_file_path": "C:/Users/wwwno/OneDrive/Documents/Git/ML-Ai/Course/Reinforcement Learning in Motion Phil Tabor/Unit3/main.py",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/wwwno/OneDrive/Documents/Git/ML-Ai/Course/Reinforcement Learning in Motion Phil Tabor/Unit3/main.py&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\wwwno\OneDrive\Documents\Git\ML-Ai\Course\Math\Asset" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="PythonConfigurationType" factoryName="Python">
       <module name="ML-Ai" />
@@ -97,7 +105,12 @@
       <workItem from="1673976085649" duration="2672000" />
       <workItem from="1674018267285" duration="5463000" />
       <workItem from="1674030247339" duration="7277000" />
-      <workItem from="1674104675727" duration="17250000" />
+      <workItem from="1674104675727" duration="18639000" />
+      <workItem from="1674128782111" duration="6243000" />
+      <workItem from="1674190688652" duration="11923000" />
+      <workItem from="1674233141654" duration="7325000" />
+      <workItem from="1674306335321" duration="672000" />
+      <workItem from="1674307174864" duration="5609000" />
     </task>
     <task id="LOCAL-00001" summary="Working 5ArmBandit">
       <created>1673960000451</created>
@@ -127,7 +140,21 @@
       <option name="project" value="LOCAL" />
       <updated>1674118643047</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Unit 4 - Discount Factor - Taylor Series (resources)">
+      <created>1674126280222</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1674126280222</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Unit 4 - Discount Factor - Taylor Series (resources)">
+      <created>1674126304112</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1674126304112</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,7 +178,8 @@
     <MESSAGE value="Working 5ArmBandit" />
     <MESSAGE value="Unit 4 - GYM" />
     <MESSAGE value="Unit 4 - Discount Factor - Taylor Series" />
-    <option name="LAST_COMMIT_MESSAGE" value="Unit 4 - Discount Factor - Taylor Series" />
+    <MESSAGE value="Unit 4 - Discount Factor - Taylor Series (resources)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Unit 4 - Discount Factor - Taylor Series (resources)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -169,6 +197,31 @@
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Course/Reinforcement Learning in Motion Phil Tabor/Unit3/main.py</url>
           <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>notebook://C:/Users/wwwno/OneDrive/Documents/Git/ML-Ai/Course/Math/Strategy.ipynb</url>
+          <line>106</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>notebook://C:/Users/wwwno/OneDrive/Documents/Git/ML-Ai/Course/Math/Strategy.ipynb</url>
+          <line>102</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>notebook://C:/Users/wwwno/OneDrive/Documents/Git/ML-Ai/Course/Math/Strategy.ipynb</url>
+          <line>101</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>notebook://C:/Users/wwwno/OneDrive/Documents/Git/ML-Ai/Course/Math/Strategy.ipynb</url>
+          <line>89</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>notebook://C:/Users/wwwno/OneDrive/Documents/Git/ML-Ai/Course/Math/Strategy.ipynb</url>
+          <line>97</line>
+          <option name="timeStamp" value="58" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
